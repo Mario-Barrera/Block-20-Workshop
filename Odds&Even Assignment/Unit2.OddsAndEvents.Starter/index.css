@@ -1,0 +1,40 @@
+/* I noticed the forked repo had some differences in spacing and button sizes compared to the example png file. So I added some extra declaration blocks to help my class assignment look as close to the provided illustration as possible. */
+
+body {
+  padding: 1rem;
+}
+
+output {
+  display: block;
+  min-height: 1rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+/* add more spacing between the label, input and submit button */
+#number, #submit {
+  margin-left: 20px;
+}
+
+/* made this button longer in width */
+#submit {
+  width: 150px;
+}
+
+/* customized the spacing between the label and input */
+h2 {
+  margin-right: 10px;
+}
+
+/* add more spacing between the input and these two buttons */
+/* made these buttons longer in width */
+#sortOne, #sortAll {
+  margin-top: 10px;
+  width: 150px;
+}
+
+/*add more spacing between sort 1 and sort all buttons */
+#sortOne {
+  margin-right: 40px;
+}
